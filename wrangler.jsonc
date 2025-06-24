@@ -22,7 +22,7 @@
             }
         ]
     },
-    "migrations": [{ "tag": "v1", "new_sqlite_classes": ["MyDurableObject"] }]
+    "migrations": [{ "tag": "v1", "new_sqlite_classes": ["MyDurableObject"] }],
 
     /**
      * Smart Placement
@@ -41,7 +41,7 @@
      * Environment Variables
      * https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
      */
-    // "vars": { "MY_VARIABLE": "production_value" },
+    "vars": { "SUPERMEMORY_API_KEY": "sm_zaNYouSocJccSxLyGEhRRP_cPoUiKZSLWCQWqgKgViQPSZcLOIZHkIyIdyvEDBkbeRqTkgqXfsVhYuWPbjmfmhD" },
     /**
      * Note: Use secrets to store sensitive data.
      * https://developers.cloudflare.com/workers/configuration/secrets/
